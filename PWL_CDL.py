@@ -1,3 +1,4 @@
+#Defining constants fr the calculation.
 f=10**(-15); p=10**(-12); n=10**(-9); u=10**(-6); m=10**(-3); s=1;
 F=f; P=p; N=n; U=u; M=m; S=s; V=s; v=s;
 result=[]
@@ -5,6 +6,7 @@ result=[]
 print("f=femto,\n p=pico,\n n=nano,\n u=micro,\n m=mili,\n s=socond\n The inputs are NOT case sensitive.\n")
 
 rtu = input("Enter the UNIT for rise time:")
+#This part sets the float values to the string inputs.
 if (rtu=='f' or rtu=='p' or rtu=='u' or rtu=='n' or rtu=='m' or rtu=='s' or rtu=='F' or rtu=='P' or rtu=='U' or rtu=='N' or rtu=='M' or rtu=='S'):
     print("Input is valid")
 else:
