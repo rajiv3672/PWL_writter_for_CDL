@@ -1,4 +1,4 @@
-#Defining constants fr the calculation.
+#Defining constants for the calculation.
 f=10**(-15); p=10**(-12); n=10**(-9); u=10**(-6); m=10**(-3); s=1;
 F=f; P=p; N=n; U=u; M=m; S=s; V=s; v=s;
 result=[]
@@ -115,7 +115,7 @@ while True:
         result.append(lvv)
     k=k+1
 
-if (ht1[0] == 0):#pops out two redundant valuse
+if (ht1[0] == 0):#pops out two redundant values
     result.pop(len(result)-1)
     result.pop(len(result)-1)
 
